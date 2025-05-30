@@ -1,0 +1,19 @@
+{
+  "name": "wod-army-acft-app",
+  "version": "1.0.0",
+  "description": "Army ACFT Training and WOD Generator App",
+  "main": "backend/server.py",
+  "scripts": {
+    "start": "cd backend && python server.py",
+    "build": "cd frontend && yarn install && yarn build",
+    "dev": "cd backend && python server.py"
+  },
+  "keywords": ["army", "acft", "fitness", "workout", "training"],
+  "author": "WOD Training App",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.9.0"
+  }
+}
+```
